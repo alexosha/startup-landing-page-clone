@@ -1,22 +1,20 @@
-header {
-	height:100px;
-	background-color: white;
-	width:100%;
-	z-index: 2;
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
 }
-#nav {
-	font-size: 1.5em;
-	float: right;
-	font-color:black;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	display: block;
-	z-index: 3;
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
 }
-#logo {
-	background-image: url(http://i60.tinypic.com/5ldqmu.png);
-	background-size: 60%;
-	float: left;
-	padding-bottom: 10px;
-	padding-top: 10px;
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
 }
