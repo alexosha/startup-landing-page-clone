@@ -1,9 +1,26 @@
+html {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+	margin-top: 5.5px;
+	margin-bottom: 5.5px;
+}
+.content {
+	min-width: 37.5rem;
+	padding-right: 20.5%;
+	padding-left: 20.5%;
+}
 .top-navigation .links {
     float: right;
     font-family: 'Roboto', sans-serif;
     color: #838994;
-    font-size: 16px;
-    margin-top: 25px;
+    font-size: 1.05em;
+    margin-top: .52rem;
     -webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
@@ -17,4 +34,24 @@
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 645px;
+    overflow: auto;
+}
+.introduction h1, .introduction h3 {
+	text-align: center;
+	font-weight: 300;
+	color: white;
+}
+.introduction h1 {
+	font-size: 3.125rem;
+	padding-top: 15rem;
+}
+.introduction h3 {
+	font-size: 1.563rem;
 }
