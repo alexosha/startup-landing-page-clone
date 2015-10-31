@@ -4,6 +4,7 @@ html {
 body {
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
+	margin: 0;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -12,8 +13,8 @@ body {
 }
 .content {
 	min-width: 37.5rem;
-	padding-right: 20.5%;
-	padding-left: 20.5%;
+	padding-right: 20.8%;
+	padding-left: 20.8%;
 }
 .top-navigation .links {
     float: right;
@@ -50,8 +51,29 @@ body {
 }
 .introduction h1 {
 	font-size: 3.125rem;
-	padding-top: 15rem;
+	padding-top: 12rem;
 }
 .introduction h3 {
 	font-size: 1.563rem;
+}
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    margin: 0 auto;
+    display: block;
+    width: 160px;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.big-button:hover {
+	background-color: #d9400e;
+	border-color: #d9400e;
+	cursor: pointer;
 }
