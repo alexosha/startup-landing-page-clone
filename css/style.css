@@ -8,13 +8,19 @@ body {
 }
 *, *:before, *:after {
 	box-sizing: inherit;
-	margin-top: 5.5px;
-	margin-bottom: 5.5px;
 }
 .content {
 	min-width: 37.5rem;
 	padding-right: 20.8%;
 	padding-left: 20.8%;
+}
+.top-navigation {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	background-color: white;
+	padding-top: 1em;
+	padding-bottom: .6em;
 }
 .top-navigation .links {
     float: right;
@@ -41,7 +47,7 @@ body {
     background-position: 0 bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 645px;
+    height: 45.938rem;
     overflow: auto;
 }
 .introduction h1, .introduction h3 {
@@ -51,10 +57,11 @@ body {
 }
 .introduction h1 {
 	font-size: 3.125rem;
-	padding-top: 12rem;
+	padding-top: 15rem;
 }
 .introduction h3 {
 	font-size: 1.563rem;
+	margin-top: -1em;
 }
 .big-button {
     text-shadow: none;
@@ -76,4 +83,23 @@ body {
 	background-color: #d9400e;
 	border-color: #d9400e;
 	cursor: pointer;
+}
+.cases .content {
+	text-align: center;
+	margin-top: 5em;
+}
+.cases h2 {
+	font-size: 2.5em;
+	font-weight: 300;
+	margin-bottom: 1.5em;
+}
+.devices {
+	width: 33.33333333333%;
+	display: inline-block;
+	margin-left: -3px;
+}
+.cases h3 {
+	margin-top: 1.5em;
+	font-weight: 300;
+	font-size: 1.7em;
 }
