@@ -103,22 +103,42 @@ body {
 	font-weight: 300;
 	font-size: 1.7em;
 }
-footer {
-	border-top: 1px solid #eaebec;
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
 }
-footer p {
+.content h5 {
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	-webkit-font-smoothing: antialiased;
+	font-size: 1em;
 	font-weight: 400;
 }
 .icons {
 	text-align: center;
+	margin-top: -1.5em;
+	padding-right: 4%;
 }
-.copyright p {
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.twitter {
+	color: #55acee;
+}
+.facebook {
+	color: #4c66a4;
+}
+.instagram {
+	color: #3f729b;
+}
+.social p {
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	-webkit-font-smoothing: antialiased;
 	font-weight: 300;
 	font-size: .8em;
 }
