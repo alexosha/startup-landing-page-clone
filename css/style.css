@@ -128,6 +128,9 @@ body {
     padding: 0.625rem 0;
     text-align: center;
 }
+.icons li {
+	cursor: pointer;
+}
 .twitter {
 	color: #55acee;
 }
